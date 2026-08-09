@@ -1,0 +1,45 @@
+
+Goal is to reduce the complexity of the original system to a minimum and then build awesome features on top of it.
+The car does not need many things in order to keep the original functionality.
+It is designed to be Arduino-based, e.g. using ESP32 with bluetooth and WIFI 
+
+Microprocessor
+- ESP32 - Cannot be used due to operating temperature.
+
+Battery management
+- Support for JKBMS RS465
+
+
+Power management
+- Efficient DC-DC converter
+- Power on PCB duing key ignition
+- Power on +72V during key igniton 
+note: +12V from 12V battery needed anyways.
+
+Connectivity
+- UART for programming + command interface
+- Bluetooth for potential app system 
+- Low priority: Sim card (UART command interface?)
+
+Spare IOs for new functions e.g.:
+- cruise control
+- canbus, I2C, UART, SPI
+- Programming of motor controller
+
+Display
+- Integration with original display (SW ready)
+  Note: Needs I2C
+
+Commands
+- Support for setting kilometer number in EEPROM
+
+Formfactor
+- Pin compatible with old CarController 
+- Compatible with orignal case
+  - Consider designing it as a V-cut board allowing you to reduce PCB size.
+
+Features from original CarController:
+- Speed current limiter
+- Battery management: Low priority: Support for old shunt-cell measurement 
+
+ 

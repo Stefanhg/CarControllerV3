@@ -1,0 +1,5 @@
+Signal speed connects to opto isolator
+Signal speed +8V connected directly to J1-1
+Signak speed GND directly connected to gnd
+
+-12V "borrowed" from MAX202 RS232 driver
