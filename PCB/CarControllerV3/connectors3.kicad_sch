@@ -5043,6 +5043,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Todo should we add CAn somewhere else?"
+		(exclude_from_sim no)
+		(at 70.104 24.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2e40c04d-72e1-405d-9bc4-59b24a6afa45")
+	)
 	(text "ECO-Poti Grinder, 5Volt = Sports, 0V = Save\nUnused - Optocoupler\nUnused - Optocoupler\n12V relay COM K5\n12V relay NO K5\n12V relay NC K5"
 		(exclude_from_sim no)
 		(at 80.01 48.514 0)
@@ -5214,7 +5224,7 @@
 		(uuid "a08382cf-10c4-4d97-8e5c-bf33ba60f2c5")
 	)
 	(junction
-		(at -35.56 21.59)
+		(at 41.91 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac081be7-dbb4-425d-8862-00cebfa63380")
@@ -5262,7 +5272,7 @@
 		(uuid "d4dbad93-0944-417f-8d07-bcc2e4c5a1cc")
 	)
 	(junction
-		(at -35.56 34.29)
+		(at 41.91 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d95a6d5c-87f9-4b43-8035-43c0cad49142")
@@ -5329,7 +5339,7 @@
 	)
 	(wire
 		(pts
-			(xy -29.21 36.83) (xy -29.21 34.29)
+			(xy 48.26 73.66) (xy 48.26 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5509,7 +5519,7 @@
 	)
 	(wire
 		(pts
-			(xy -29.21 34.29) (xy -35.56 34.29)
+			(xy 48.26 71.12) (xy 41.91 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5559,7 +5569,7 @@
 	)
 	(wire
 		(pts
-			(xy -24.13 21.59) (xy -24.13 36.83)
+			(xy 53.34 58.42) (xy 53.34 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5669,7 +5679,7 @@
 	)
 	(wire
 		(pts
-			(xy -35.56 21.59) (xy -24.13 21.59)
+			(xy 41.91 58.42) (xy 53.34 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6429,7 +6439,7 @@
 	)
 	(wire
 		(pts
-			(xy -35.56 34.29) (xy -46.99 34.29)
+			(xy 41.91 71.12) (xy 30.48 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6699,7 +6709,7 @@
 	)
 	(wire
 		(pts
-			(xy -46.99 21.59) (xy -35.56 21.59)
+			(xy 30.48 58.42) (xy 41.91 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6759,7 +6769,7 @@
 	)
 	(wire
 		(pts
-			(xy -35.56 21.59) (xy -35.56 22.86)
+			(xy 41.91 58.42) (xy 41.91 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6819,7 +6829,7 @@
 	)
 	(wire
 		(pts
-			(xy -35.56 33.02) (xy -35.56 34.29)
+			(xy 41.91 69.85) (xy 41.91 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6949,7 +6959,7 @@
 	)
 	(wire
 		(pts
-			(xy -26.67 58.42) (xy -26.67 57.15)
+			(xy 50.8 95.25) (xy 50.8 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7109,7 +7119,7 @@
 			)
 		)
 	)
-	(global_label "I2C_SDA"
+	(global_label "I2C_SDA_1"
 		(shape input)
 		(at 44.45 137.16 180)
 		(fields_autoplaced yes)
@@ -7121,7 +7131,7 @@
 		)
 		(uuid "6632528e-8c56-4ead-ae1f-9ef6f327dbb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.8448 137.16 0)
+			(at 31.6677 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7207,7 +7217,7 @@
 	)
 	(global_label "CAN_L"
 		(shape bidirectional)
-		(at -46.99 34.29 180)
+		(at 30.48 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7217,7 +7227,7 @@
 		)
 		(uuid "8902bcb2-8457-4bb3-85c3-263d8134086c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -56.7713 34.29 0)
+			(at 20.6987 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7229,7 +7239,7 @@
 			)
 		)
 	)
-	(global_label "I2C_SCL"
+	(global_label "I2C_SCL_1"
 		(shape input)
 		(at 44.45 139.7 180)
 		(fields_autoplaced yes)
@@ -7241,7 +7251,7 @@
 		)
 		(uuid "a90b3677-008c-444f-be76-3e209f7c95ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.9053 139.7 0)
+			(at 31.7282 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7255,7 +7265,7 @@
 	)
 	(global_label "CAN_H"
 		(shape bidirectional)
-		(at -46.99 21.59 180)
+		(at 30.48 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7265,7 +7275,7 @@
 		)
 		(uuid "b3f362b2-40b9-4e08-be5e-5ed66a45d62c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -57.0737 21.59 0)
+			(at 20.3963 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8571,7 +8581,7 @@
 	)
 	(symbol
 		(lib_id "RC0603FR:RC0603FR-07100R")
-		(at -35.56 27.94 90)
+		(at 41.91 64.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8581,7 +8591,7 @@
 		(dnp no)
 		(uuid "570cfb90-b7e3-4ac9-bdb2-0173d19e5d1e")
 		(property "Reference" "R33"
-			(at -33.02 26.924 90)
+			(at 44.45 63.754 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8591,7 +8601,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at -31.75 28.956 90)
+			(at 45.72 65.786 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8601,7 +8611,7 @@
 			)
 		)
 		(property "Footprint" "footprints:RC0603FR-RESC1608X60N"
-			(at -28.575 27.94 0)
+			(at 48.895 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8612,7 +8622,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.farnell.com/datasheets/443971.pdf"
-			(at -26.035 27.94 0)
+			(at 51.435 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8623,7 +8633,7 @@
 			)
 		)
 		(property "Description" "Resistor XXXX 0603 1%"
-			(at -35.56 27.94 0)
+			(at 41.91 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8634,7 +8644,7 @@
 			)
 		)
 		(property "Voltage" "75V"
-			(at -22.225 27.94 0)
+			(at 55.245 64.77 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8645,7 +8655,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at -20.32 27.94 0)
+			(at 57.15 64.77 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8656,7 +8666,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at -18.415 27.94 0)
+			(at 59.055 64.77 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -11849,7 +11859,7 @@
 	)
 	(symbol
 		(lib_id "PESD2CAN_215:PESD2CAN_215")
-		(at -26.67 46.99 270)
+		(at 50.8 83.82 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11859,7 +11869,7 @@
 		(dnp no)
 		(uuid "e639ffc9-a681-48ea-8d83-5cc61b3d9de6")
 		(property "Reference" "D3"
-			(at -20.828 42.164 90)
+			(at 56.642 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11870,7 +11880,7 @@
 			)
 		)
 		(property "Value" "PESD2CAN_215"
-			(at -34.036 65.278 90)
+			(at 43.434 102.108 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11881,7 +11891,7 @@
 			)
 		)
 		(property "Footprint" "footprints:IC_PESD2CAN_215"
-			(at -26.67 46.99 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11893,7 +11903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -26.67 46.99 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11904,7 +11914,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -26.67 46.99 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11915,7 +11925,7 @@
 			)
 		)
 		(property "MF" "Nexperia USA"
-			(at -26.67 46.99 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11927,7 +11937,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1mm"
-			(at -26.67 46.99 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11939,7 +11949,7 @@
 			)
 		)
 		(property "Package" "SOT23-3 Nexperia USA Inc."
-			(at -26.67 46.99 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11951,7 +11961,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at -26.67 46.99 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11963,7 +11973,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/PESD2CAN,215/Nexperia/view-part/?ref=eda"
-			(at -26.67 46.99 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11975,7 +11985,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at -26.67 46.99 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11987,7 +11997,7 @@
 			)
 		)
 		(property "PARTREV" "2"
-			(at -26.67 46.99 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11999,7 +12009,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PESD2CAN,215/Nexperia/view-part/?ref=snap"
-			(at -26.67 46.99 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12011,7 +12021,7 @@
 			)
 		)
 		(property "MP" "PESD2CAN,215"
-			(at -26.67 46.99 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12023,7 +12033,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=422915&manufacturer=Nexperia USA&part_name=PESD2CAN,215&search_term=pesd2can"
-			(at -26.67 46.99 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12035,7 +12045,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            41V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount TO-236AB\n                        \n"
-			(at -26.67 46.99 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12047,7 +12057,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Nexperia"
-			(at -26.67 46.99 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12059,7 +12069,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at -26.67 46.99 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12071,7 +12081,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "PESD2CAN,215"
-			(at -26.67 46.99 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12102,7 +12112,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -26.67 58.42 0)
+		(at 50.8 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12112,7 +12122,7 @@
 		(dnp no)
 		(uuid "e825c7c2-2d49-4208-9d18-b2884bb09901")
 		(property "Reference" "#PWR06"
-			(at -26.67 64.77 0)
+			(at 50.8 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12123,7 +12133,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -26.67 62.23 0)
+			(at 50.8 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12133,7 +12143,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -26.67 58.42 0)
+			(at 50.8 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12144,7 +12154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -26.67 58.42 0)
+			(at 50.8 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12155,7 +12165,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -26.67 58.42 0)
+			(at 50.8 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

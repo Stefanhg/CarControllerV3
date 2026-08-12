@@ -5952,7 +5952,7 @@
 			)
 		)
 	)
-	(global_label "UART_RX"
+	(global_label "UART_MCU_TX"
 		(shape input)
 		(at 250.19 58.42 0)
 		(fields_autoplaced yes)
@@ -5964,7 +5964,7 @@
 		)
 		(uuid "17331adc-02bb-40d0-ad8f-03453091190e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.279 58.42 0)
+			(at 265.9961 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5976,7 +5976,7 @@
 			)
 		)
 	)
-	(global_label "UART_TX"
+	(global_label "UART_MCU_RX"
 		(shape output)
 		(at 250.19 60.96 0)
 		(fields_autoplaced yes)
@@ -5988,7 +5988,7 @@
 		)
 		(uuid "3081615a-941d-4de3-92ab-ec55c3518a56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.9766 60.96 0)
+			(at 266.2985 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
